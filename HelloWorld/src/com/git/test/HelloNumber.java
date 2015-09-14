@@ -20,8 +20,8 @@ public class HelloNumber {
 		System.out.println(sum); // sum 출력
 		System.out.println(ca);// 마이너스출력
 
-		System.out.println(mul);
-		System.out.println(mod);
+		System.out.println(mul);// 곱
+		System.out.println(mod);// 나머지 출력
 
 	}
 }
