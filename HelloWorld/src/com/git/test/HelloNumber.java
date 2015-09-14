@@ -9,15 +9,19 @@ public class HelloNumber {
 		int ca =0;
 
 		int mul=0; 
+		int mod;
 
 		sum = num1 +num2; //합계 
 
 		mul = num1*num2;//곱
+		
+		mod =num1 % 3;
 
 		System.out.println(sum); // sum 출력
 		System.out.println(ca);// 마이너스출력
 
 		System.out.println(mul);
+		System.out.println(mod);
 
 	}
 }
