@@ -1,6 +1,15 @@
 package com.git.test;
 
+class Hello{
+	String mor = "Good Morning";
+	
+	public Hello(){
+		this.mor=mor;
+	}
+}
+
 public class HelloString {
+	
 
 	public static void main(String[] args) {
 		String str = "안녕하세요";
@@ -11,7 +20,10 @@ public class HelloString {
 		System.out.println(job);
 		String door = "열자입니다.";
 		System.out.println(door);
-
+		
+		Hello hello = new Hello();
+		hello.mor="bonjure";
+		System.out.println(hello.mor);
 	}
 
 }
