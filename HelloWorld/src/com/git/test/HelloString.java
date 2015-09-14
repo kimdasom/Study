@@ -9,6 +9,8 @@ public class HelloString {
 		System.out.println(space);
 		String job ="programer";
 		System.out.println(job);
+		String door = "열자입니다.";
+		System.out.println(door);
 
 	}
 
